@@ -1,5 +1,5 @@
 var fs = require('fs')
-console.log('your code here')
+// console.log('your code here')
 var fileContents = fs.readFileSync('names.txt', 'utf-8')
 // console.log(fileContents);
 var res = fileContents.split('\r\n');

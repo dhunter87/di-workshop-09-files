@@ -162,8 +162,10 @@ console.log(data)
 ```
 
 **What do you think will change?**
+<!-- it will change the data from string format to an object format -->
 
 Run the code. **What changed? Why?**
+<!-- data is not in objcet format -->
 
 We can _loop_ over each item in the basket with the following code:
 
@@ -174,6 +176,8 @@ for (var item of data.basket) {
 ```
 
 **How does this loop work?**
+loops through each (object)item in the data.basket(object) 
+then console.logs the name of each object within the basket oibject.
 
 **What happens when we change basket in the code? Why?**
 
