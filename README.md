@@ -111,6 +111,7 @@ When you run your code, you should see this file get created and see the
 (reversed) list of names inside. Try changing your original names.txt and
 running your code again - you should see your names-reversed.txt file change
 each time.
+<!-- DONE -->
 
 ### Part 1 Challenge
 

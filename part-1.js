@@ -4,9 +4,18 @@ var fileContents = fs.readFileSync('names.txt', 'utf-8')
 // console.log(fileContents);
 var res = fileContents.split('\r\n');
 // console.log(res);
-res.reverse();
+// res.reverse();
 // for( var r of res ){
 
 //     console.log(r);
 // }
-console.log(res.join());
+
+var reversedArray = res.reverse().join()
+fs.writeFileSync('reversedNames.txt', reversedArray, 'utf-8');
+console.log(res.reverse().join());
+
+// for (var name of reversedArray) {
+//     console.log(name)
+//   }
+
+
