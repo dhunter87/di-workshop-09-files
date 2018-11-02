@@ -49,9 +49,11 @@ console.log(fileContents)
 ```
 
 Before you run the code, read it carefully. **What do you think it’ll do?**
+<!-- i think it will put the contents of the file within a variable. -->
 
 Run the code in your terminal with `node part-1.js`. **What happened? Was it
-what you expected?**
+what you expected?** 
+<!-- not sure what happened! - random numbers are being displyed in the console -->
 
 You’ll probably find that you get something with the word ‘`Buffer`’ and a bunch
 of weird letters and numbers. These are the bytes from our file, the raw data
@@ -69,8 +71,11 @@ Run your code and see what the difference is. So some research to answer these
 questions:
 
 - **What does utf-8 mean**
+<!-- it is the characterset declaration -->
 - **Why does adding it change what our code does?**
+<!-- converts the raw data from the file into readable text -->
 - Extra: **what other things could we try adding instead of `utf-8`?**
+<!-- ??? -->
 
 Now, `readFileSync` should be returning a _string_ containing the contents of
 our file.
@@ -80,11 +85,14 @@ Complete the following tasks:
 - Split the file string into an _array of lines_
   - If you're unsure about this, try searching for something like 'javascript
     split string into lines'
+    <!-- DONE -->
 - Reverse the array of lines
   - Again, if you're not sure about this, try a search engine! 'javascript
     reverse array' is probably a good bet
+    <!-- DONE -->
 - Join the array of lines back together again
   - Try coming up wiuth your own search for this one ;)
+  <!-- DONE -->
 
 Now we’ve reversed the names, we can look at _writing_ (saving) the file.
 
